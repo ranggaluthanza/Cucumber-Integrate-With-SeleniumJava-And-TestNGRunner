@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="18.404">
-    <testcase classname="Checkout Product" name="Add 3 items to cart and place the order" time="18.044">
-        <system-out><![CDATA[Given user is on GreenKart Landing page.....................................passed
-When user add 3 items that their searched "Carrot" to cart..................passed
-And apply promo code in cart page...........................................passed
-Then Place order............................................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Search and Place the order for Products" name="Search Experience for the product search in both homepage and offers page" time="16.208">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="16.624">
+    <testcase classname="Search and Place the order for Products" name="Search Experience for the product search in both homepage and offers page" time="16.386">
         <system-out><![CDATA[Given user is on GreenKart Landing page.....................................passed
 When user searched with Shortname Tom and extracted actual name of product..passed
 Then user searched for Tom shortname in offers page to check if product exist with same name.passed
 And validate product name in offers page matches with Landing Page..........passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Search and Place the order for Products" name="Search Experience for the product search in both homepage and offers page 2" time="16.286">
+    <testcase classname="Search and Place the order for Products" name="Search Experience for the product search in both homepage and offers page 2" time="16.18">
         <failure message="expected [null] but found [Beetroot]" type="java.lang.AssertionError"><![CDATA[Given user is on GreenKart Landing page.....................................passed
 When user searched with Shortname Beet and extracted actual name of product.passed
 Then user searched for Beet shortname in offers page to check if product exist with same name.passed
@@ -29,7 +22,7 @@ java.lang.AssertionError: expected [null] but found [Beetroot]
 	at org.testng.Assert.assertEquals(Assert.java:629)
 	at org.testng.Assert.assertEquals(Assert.java:639)
 	at stepDefinitions.OfferPageStepDefinition.validate_product_name_in_offers_page_matches_with_landing_page(OfferPageStepDefinition.java:54)
-	at ✽.validate product name in offers page matches with Landing Page(file:///C:/Users/rangg/eclipse-workspace/Cucumber-Integrate-With-SeleniumJava-And-TestNGRunner/src/test/java/features/SearchProduct.feature:8)
+	at ✽.validate product name in offers page matches with Landing Page(file:///C:/Users/rangg/OneDrive/Documents/gitutils/Cucumber-Integrate-With-SeleniumJava-And-TestNGRunner/src/test/java/features/SearchProduct.feature:8)
 ]]></failure>
     </testcase>
 </testsuite>
