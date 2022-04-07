@@ -1,5 +1,5 @@
 Feature: Checkout Product	
-	@CheckoutProduct
+	@CheckProduct
 	Scenario: Add 3 items to cart and place the order
 	Given user is on GreenKart Landing page
 	When user add 3 items that their searched "Carrot" to cart
