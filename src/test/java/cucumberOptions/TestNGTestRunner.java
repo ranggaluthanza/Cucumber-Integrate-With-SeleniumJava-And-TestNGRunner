@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		features="src/test/java/features",
-		glue="stepDefinitions", tags="@ChromeBrowsers", monochrome=true,
+		glue="stepDefinitions", monochrome=true,
 		plugin = {
 					"pretty","html:target/report/cucumber.html", 
 					"json:target/report/cucumber.json", 
